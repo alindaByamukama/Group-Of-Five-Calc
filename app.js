@@ -1,4 +1,7 @@
 // DEPENDENCIES (Or Plugins--------***** section in Anatomy of an Express Server
+require('dotenv').config();
+// console.log(process.env)
+
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
@@ -62,7 +65,7 @@ app.get('*', (req, res) => {
 })
 
 // BOOTSTRAPPING SERVER--------------***section in Anatomy of an Express Server
-const PORT = 4000;
-const HOST = '0.0.0.0';
+// const PORT = 4000;
+// const HOST = '0.0.0.0';
 
 app.listen(PORT, HOST, () => console.log(`Elders are listening on ${HOST}:${PORT}`));
