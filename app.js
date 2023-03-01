@@ -67,6 +67,6 @@ app.get('*', (req, res) => {
 
 // BOOTSTRAPPING SERVER--------------***section in Anatomy of an Express Server
 const PORT = 4000;
-const HOST = '0.0.0.0';
+// const HOST = '0.0.0.0';
 
-app.listen(PORT, HOST, () => console.log(`Elders are listening on ${HOST}:${PORT}`));
+app.listen(PORT, () => console.log(`Elders are listening on ${PORT}`));
