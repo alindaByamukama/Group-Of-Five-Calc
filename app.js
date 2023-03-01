@@ -1,7 +1,4 @@
 // DEPENDENCIES (Or Plugins--------***** section in Anatomy of an Express Server
-require('dotenv').config();
-// console.log(process.env)
-
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
@@ -40,6 +37,7 @@ db.on('error', (err) => {
 });
 
 // CONFIGURATIONS-------------------**** section in Anatomy of an Express Server
+// eslint-disable-next-line no-underscore-dangle
 app.engine('pug', require('pug').__express);
 
 app.set('view engine', 'pug');
@@ -66,7 +64,5 @@ app.get('*', (req, res) => {
 });
 
 // BOOTSTRAPPING SERVER--------------***section in Anatomy of an Express Server
-const PORT = 4000;
-// const HOST = '0.0.0.0';
 
-app.listen(PORT, () => console.log(`Elders are listening on ${PORT}`));
+app.listen(8081, () => console.log('Elders are listening on port 8081'));

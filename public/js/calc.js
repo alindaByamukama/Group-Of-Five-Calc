@@ -52,4 +52,5 @@ function clearScreen() {
   document.getElementById('num2').value = '';
 }
 
-module.exports.addNumbers = addNumbers;
+// module.exports.addNumbers = addNumbers;
+// export default addNumbers;
