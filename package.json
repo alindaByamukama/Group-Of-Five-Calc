@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theessentialwil/Stevo-s-Calculator-App.git"
+    "url": "git@github.com:alindaByamukama/Group-Of-Five-Calc.git"
   },
   "keywords": [
     "continuous-integration",
@@ -18,9 +18,9 @@
   "author": "Group One = Wil M, Dominic M, Richard S, Gerald N, Alinda B.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theessentialwil/Stevo-s-Calculator-App.git/issues"
+    "url": "https://github.com:alindaByamukama/Group-Of-Five-Calc.git/issues"
   },
-  "homepage": "https://github.com/theessentialwil/Stevo-s-Calculator-App.git",
+  "homepage": "https://github.com:alindaByamukama/Group-Of-Five-Calc.git",
   "dependencies": {
     "connect-ensure-login": "^0.1.1",
     "express": "^4.18.1",
