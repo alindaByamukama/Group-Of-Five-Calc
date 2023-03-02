@@ -1,4 +1,5 @@
-const express  = require('express');
+const express = require('express');
+
 const router = express.Router();
 // const multer = require('multer');
 // const connectEnsureLogin = require('connect-ensure-login');
@@ -10,8 +11,6 @@ const router = express.Router();
 // const { get } = require('mongoose');
 // see comments.txt
 
-
-
 // image upload
 // var storage = multer.diskStorage({
 //   destination: (req, file, cb) => {
@@ -21,14 +20,14 @@ const router = express.Router();
 //   cb(null, file.originalname);
 //   }
 //   });
-  
-  // instantiate variable upload to store multer functionality to upload image
-  // var upload = multer({ storage: storage }) 
+
+// instantiate variable upload to store multer functionality to upload image
+// var upload = multer({ storage: storage })
 
 // home page route
 router.get('/index', (req, res) => {
   res.render('index');
-})
+});
 
 // // home page if you have to await info from the Customers Model collection(s)
 // // router.get('/index', async (req,res) => {
@@ -68,5 +67,4 @@ router.get('/index', (req, res) => {
 //   }
 // });
 
-
-module.exports = router; 
+module.exports = router;
