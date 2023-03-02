@@ -1,4 +1,4 @@
-module.exports.addNumbers = function addNumbers() {
+function addNumbers() {
   // Get the values of the input elements
   const num1 = parseInt(document.getElementById('num1').value, 10);
   const num2 = parseInt(document.getElementById('num2').value, 10);
@@ -52,5 +52,4 @@ function clearScreen() {
   document.getElementById('num2').value = '';
 }
 
-// module.exports.addNumbers = addNumbers;
-// export default addNumbers;
+module.exports.addNumbers = addNumbers;
