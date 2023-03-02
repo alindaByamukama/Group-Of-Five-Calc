@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon app.js",
     "lint": "eslint",
-    "test": "mocha './test/test-add.js' -r jsdom-global/register"
+    "test": "mocha './test/test-add.js'"
   },
   "repository": {
     "type": "git",
@@ -43,8 +43,6 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
     "install": "^0.13.0",
-    "jsdom": "21.1.0",
-    "jsdom-global": "3.0.2",
     "mocha": "^10.2.0"
   }
 }

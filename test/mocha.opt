@@ -1,7 +1,0 @@
- before(function () {
-  this.jsdom = require('jsdom-global')()
-})
-
-after(function () {
-  this.jsdom()
-})

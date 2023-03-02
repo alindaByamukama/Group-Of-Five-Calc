@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 const { assert } = require('chai');
 const addNumbers = require('../public/js/calc');
 

@@ -8,7 +8,7 @@ function addNumbers() {
 
   // Display the result in the paragraph element
   document.getElementById('result').textContent = `Result = ${sum}`;
-};
+}
 
 function subtractNumbers() {
   // Get the values of the input elements
